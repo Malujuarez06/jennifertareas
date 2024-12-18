@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffeef5; /* Fondo rosa claro */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #cc6699; /* Fondo rosa */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header button {
+    background-color: #ff85b3; /* Botón rosa */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+header button:hover {
+    background-color: #ff5f91; /* Hover más oscuro */
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#search {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 20px;
+    border: 1px solid #e0a1c3; /* Borde rosa claro */
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+#search:focus {
+    outline: none;
+    border-color: #ff85b3; /* Borde rosa en focus */
+    box-shadow: 0 2px 5px rgba(255, 133, 179, 0.3);
+}
+
+#notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.note {
+    background-color: #fff; 
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.note h3 {
+    margin-bottom: 10px;
+    color: #cc6699; /* Título en rosa */
+}
+
+.note p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #666; /* Texto en gris */
+}
+
+.note-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff85b3; /* Botón rosa */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #ff5f91; /* Hover más oscuro */
+}
